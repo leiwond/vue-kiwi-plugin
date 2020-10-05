@@ -6,36 +6,15 @@
       "classComponent": true,
       "useTsWithBabel": true
     },
-    "@vue/cli-plugin-router": {
-      "historyMode": false
-    },
-    "@vue/cli-plugin-vuex": {},
     "@vue/cli-plugin-eslint": {
       "config": "standard",
       "lintOn": [
         "save"
       ]
     },
-    "@vue/cli-plugin-unit-jest": {},
-    "@vue/cli-plugin-e2e-nightwatch": {
-      "webdrivers": [
-        "chrome"
-      ]
-    },
-    "@vuetify/vue-cli-plugin-presets": {
-      "prompts": true,
-      "version": "^0.1.0-alpha.5"
-    },
-    "vue-cli-plugin-vuetify": {
-      "preset": "configure",
-      "replaceComponents": false,
-      "useTheme": false,
-      "useCustomProperties": false,
-      "iconFont": "mdi",
-      "installFonts": false,
-      "useAlaCarte": true,
-      "usePolyfill": true,
-      "locale": "en"
+    "@vuetifyjs/vue-cli-plugin-vuetify": {
+      "promts": false,
+      "version": "^2.0.7"
     }
   },
   "vueVersion": "2",
