@@ -12,8 +12,8 @@
         "save"
       ]
     },
-    "@vuetifyjs/vue-cli-plugin-vuetify": {
-      "promts": false,
+    "@vuetify/vue-cli-plugin-vuetify": {
+      "prompts": false,
       "version": "^2.0.7"
     }
   },
