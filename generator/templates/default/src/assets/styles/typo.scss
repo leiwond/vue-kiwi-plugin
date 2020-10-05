@@ -1,0 +1,124 @@
+@import 'config';
+$font-path: './assets/fonts/';
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'FreightSansProK';
+    src:
+        url($font-path + "freightsansprok-book.woff2") format('woff2');
+}
+@font-face {
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'FreightSansProK';
+    src:
+        url($font-path + "freightsansprok-medium.woff2") format('woff2');
+}
+@font-face {
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'FreightSansProK';
+    src:
+        url($font-path + "freightsansprok-light.woff2") format('woff2');
+}
+
+body,
+button,
+input,
+textarea,
+select {
+    color: $color-text;
+    font-size: $font-size-default;
+    font-family: $font-family-default;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: $font-size-heading1;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: $font-size-heading2;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: $font-size-heading3;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: underline;
+
+    &:hover {
+        color: $color-highlight !important;
+    }
+}
+
+.typo {
+    &-info {
+        margin-bottom: 10px;
+        padding: 8px 12px;
+        background: $color-blue3;
+        font-size: $font-size-small;
+    }
+
+    &-hint {
+        color: $color-text-secondary;
+
+        &--padded {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+
+    &-id {
+        color: $color-text-secondary;
+        font-weight: 100;
+        font-size: 85%;
+
+        &::before {
+            content: '(';
+            font-size: 80%;
+        }
+
+        &::after {
+            content: ')';
+            font-size: 80%;
+        }
+    }
+
+    &-divider {
+        margin: 0 5px;
+        color: $color-gray4;
+    }
+
+    &-noOverflow {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.definitionList {
+    display: flex;
+    flex-wrap: wrap;
+
+    dt {
+        display: block;
+        flex-basis: 25%;
+        padding-top: 4px;
+        color: $color-text-secondary;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        font-size: $font-size-tiny;
+    }
+
+    dd {
+        display: block;
+        flex-basis: 75%;
+        margin-bottom: $padding-default;
+    }
+}

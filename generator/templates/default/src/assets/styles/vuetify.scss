@@ -1,0 +1,235 @@
+@import 'config';
+
+html,
+body {
+    font-family: $font-family-default;
+    font-size: $font-size-default;
+}
+
+.application {
+    font-family: $font-family-default;
+
+    .link {
+        color: $color-green2 !important;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    /*******************
+     * BACKGROUND
+     ******************/
+    &.theme--light {
+        background-color: $color-background;
+
+        a:hover {
+            color: $color-green1!important;
+        }
+
+        // global font ist not a pure black
+        .v-toolbar {
+            color: $color-text;
+        }
+
+        .theme--light, .v-dialog {
+            &.v-card, .v-card, .v-datatable, .v-list, .v-text-field, .v-select, .v-select__selections {
+                color: $color-text;
+            }
+
+            .v-input {
+                color: $color-text;
+
+                &:not(.v-input--is-disabled) {
+                    input, textarea {
+                        color: $color-text;
+                    }
+                }
+            }
+
+            // brighter than color text
+            .v-label {
+                color: $color-text-secondary;
+            }
+        }
+
+        // tabs
+        .v-tabs__div {
+            text-transform: none;
+        }
+
+        .v-tabs {
+            a {
+                color: $color-gray1!important;
+
+                &:hover, &.v-tabs__item--active {
+                    color: #000000!important;
+                }
+            }
+        }
+    }
+
+    /*******************
+     * LEFT SIDEBAR
+     ******************/
+    .theme--dark.v-navigation-drawer {
+        background-color: $color-gray1;
+
+        .navigation-header {
+            color: #ffffff;
+            font-size: 18px;
+            img {
+                width: 110px;
+            }
+            p {
+                margin-top: -8px;
+            }
+        }
+
+        .navigation-text {
+            margin: 12px 0 0 12px;
+            font-weight: bold;
+        }
+
+        .v-list__tile {
+            font-weight: normal;
+            font-size: 1.125rem;
+            opacity: 0.8;
+            transition: none;
+
+            &:hover {
+                .v-list__tile__title {
+                    color: #fff;
+                }
+            }
+
+            &.v-list__tile--active {
+                .v-icon {
+                    color: $color-green3;
+                }
+
+                &:hover {
+                    .v-list__tile__title {
+                        color: $color-green3;
+                    }
+                }
+            }
+        }
+    }
+
+    .v-autocomplete__content .v-select-list.v-card.theme--dark .v-list.theme--dark {
+        background-color: $color-background;
+        color: $color-text;
+
+        a {
+            transition: none;
+
+            &:hover {
+                background-color: $color-gray3;
+                color: #ffffff !important;
+            }
+        }
+    }
+
+    .v-select.v-select--is-menu-active .v-input__icon--append .v-icon {
+        transform: none;
+    }
+
+    /*******************
+     * RIGHT SIDEBAR
+     ******************/
+
+    .v-navigation-drawer.v-navigation-drawer--right {
+        > .v-navigation-drawer__border {
+            display: none;
+        }
+
+        .v-tabs {
+            .v-tabs__item {
+                font-size: 1rem;
+            }
+        }
+
+        // remove right padding of the content section when the sidebar is open
+        &.v-navigation-drawer--open {
+
+            + .v-content .container {
+                padding-right: 0;
+            }
+        }
+    }
+
+    /*******************
+     * TOPBAR
+     ******************/
+    .v-navigation-drawer + .v-toolbar {
+        border-bottom: solid 1px $color-gray4 !important;
+
+        .v-toolbar__title {
+            letter-spacing: 0;
+            font-weight: normal;
+            font-size: 2.5rem;
+
+            span {
+                color: $color-gray3;
+                font-size: 1rem;
+            }
+        }
+
+        .v-tabs {
+            .v-tabs__item {
+                text-transform: none;
+                font-weight: normal;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+/*******************
+ * COMPONENTS
+ ******************/
+
+.v-alert {
+    border: 0;
+
+    &.warning {
+        background-color: $color-yellow4 !important;
+        color: $color-brown1;
+    }
+
+    &.info {
+        background-color: $color-blue4 !important;
+        color: $color-blue5;
+    }
+
+    &.grey {
+        &.lighten-3 {
+            color: $color-text;
+        }
+    }
+}
+
+.v-btn {
+    text-transform: none;
+    font-size: $font-size-default;
+}
+
+.v-input--selection-controls {
+    margin-top: 0;
+}
+
+// Font size of select should be the same as font size of text fields
+.v-select .v-select__slot {
+    font-family: $font-family-default;
+
+    .v-label {
+        font-size: $font-size-default;
+    }
+
+    input,
+    .v-select__selection {
+        font-size: $font-size-default;
+    }
+}

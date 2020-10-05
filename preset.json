@@ -2,22 +2,40 @@
   "useConfigFiles": true,
   "plugins": {
     "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-router": {
+      "historyMode": false
+    },
+    "@vue/cli-plugin-vuex": {},
+    "vue-cli-plugin-vuetify": {
+      "preset": "configure",
+      "replaceComponents": false,
+      "useTheme": false,
+      "useCustomProperties": false,
+      "iconFont": "mdi",
+      "installFonts": false,
+      "useAlaCarte": true,
+      "usePolyfill": true,
+      "locale": "en"
+    },
     "@vue/cli-plugin-typescript": {
       "classComponent": true,
-      "useTsWithBabel": true
+      "useTsWithBabel": true,
+      "convertJsToTs": false
     },
     "@vue/cli-plugin-eslint": {
-      "config": "standard",
+      "config": "airbnb",
       "lintOn": [
         "save"
       ]
     },
-    "vuetify/vue-cli-plugin-vuetify": {
-      "prompts": false,
-      "version": "^2.0.7"
-    }
+    "@vue/cli-plugin-unit-jest": {},
+    "@vue/cli-plugin-e2e-nightwatch": {
+      "webdrivers": [
+        "chrome"
+      ]
+    },
+    "eslint-plugin-jest": {}
   },
   "vueVersion": "2",
   "cssPreprocessor": "node-sass"
 }
-

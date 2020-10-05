@@ -1,0 +1,5 @@
+VUE_APP_ENVIRONMENT_NAME=Staging
+VUE_APP_API_SALES_PROCESS_BASE_URL=https://api-service.staging.karriere.at/v2
+VUE_APP_API_SALES_PROCESS_TOKEN=b455a55c8d1dc1d4bb157f43c8cd4e136ab6722j
+VUE_APP_API_SERVICE_BASE_URL=https://api-service.staging.karriere.at/v2
+VUE_APP_API_SERVICE_TOKEN=b455a55c8d1dc1d4bb157f43c8cd4e136ab6722j

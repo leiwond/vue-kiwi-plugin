@@ -1,0 +1,85 @@
+// color definitions
+$color-gray1: #142542;  // header color VUETIFY
+$color-gray2: #535662;  // main text color
+$color-gray2-2: #59667B; // color-gray--600 from design.karriere.at
+$color-gray3: #a9aab0;  // secondary text color
+$color-gray4: #e3e6e9;  // lines, borders VUETIFY
+$color-gray5: #f0f0f0;  // sidebar
+$color-gray6: #edeff1;  // background VUETIFY
+$color-gray7: #f5f7f7;  // color-gray--50 from design.karriere.at
+
+$color-white: #ffffff;
+
+$color-green1: #416c04; // green font/border color
+$color-green2: #5e9f06; // darker green color for links and outline/flat buttons
+$color-green3: #8bc72a; // main green color
+$color-green4: #e7f4df; // light green bg color
+
+$color-blue1: #4ebaf1;   // info text color
+$color-blue2: #a6dcf8;   // lighter info color
+$color-blue3: #eaf4f9;   // info bg color
+$color-blue4: #e2f3fc;   // light blue bg color
+$color-blue5: #004d7c;   // dark blue info color //TODO: due to our old config the variables should be renamed later
+
+$color-red1: #a6201e;    // error text color
+$color-red2: #fa5a5b;    // lighter error color
+$color-red3: #ffe2dc;    // error bg color
+
+$color-yellow1: #c29305;    // indication text color
+$color-yellow2: #f7c01b;    // lighter indication color
+$color-yellow3: #fdedbb;    // indication bg color
+$color-yellow4: #fef9ea;    // light yellow bg color
+
+$color-brown1: #9f7700;    // brown warning-text color
+
+// color aliases
+
+$color-background: $color-gray6;
+$color-border: $color-gray4;
+$color-text: $color-gray1;
+$color-text-secondary: rgba($color-text, .6);
+$color-error: $color-red1;
+$color-highlight: $color-green3;
+
+// fonts
+
+$font-family-default: 'FreightSansProK', Tahoma, sans-serif;
+$font-size-heading1: 30px;
+$font-size-heading2: 20px;
+$font-size-heading3: 16px;
+$font-size-default: 15px;
+$font-size-small: 13px;
+$font-size-tiny: 11px;
+
+$line-height-default: 1.3;
+
+// sizes
+
+$padding-default: 20px;
+$padding-list: 15px;
+$border-radius-default: 3px;
+
+$top-bar-height: 48px;
+$side-bar-width: 250px;
+
+$view-container-padding: $padding-default;
+
+$max-form-width: 1000px;
+$max-dialog-width: 800px;
+
+// effects
+
+$shadow-level-low: 0 1px 2px rgba(0, 0, 0, 0.1); // shadow for elements with low levitation
+$shadow-level-high: 0 2px 8px rgba(0, 0, 0, 0.3); // shadow for elements with high
+
+$transition-default: 0.25s ease;
+
+// Vuetify
+
+$vuetify-spacer: 16px;
+$padding-0: 0;
+$padding-1: $vuetify-spacer * 0.25;
+$padding-2: $vuetify-spacer * 0.5;
+$padding-3: $vuetify-spacer;
+$padding-4: $vuetify-spacer * 1.5;
+$padding-5: $vuetify-spacer * 3;

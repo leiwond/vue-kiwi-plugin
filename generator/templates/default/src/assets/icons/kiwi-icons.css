@@ -1,0 +1,254 @@
+.icon {
+    font-style: normal;
+}
+
+/*
+ * Custom kiwi icons that will be converted to an icon font by Webpack
+ */
+
+.icon-kiwi:before {
+    font-icon: url('./svg/logo.svg');
+}
+
+.icon-more:before {
+     font-icon: url('./svg/3dots.svg');
+ }
+
+.icon-arrow-down:before {
+    font-icon: url('./svg/arrow_down.svg');
+}
+
+.icon-arrow-up:before {
+    font-icon: url('./svg/arrow_up.svg');
+}
+
+.icon-input:before {
+    font-icon: url('./svg/baseline-input.svg');
+}
+
+.icon-delete:before {
+    font-icon: url('./svg/bin.svg');
+}
+
+.icon-branding-solution:before {
+    font-icon: url('./svg/brandingsolution.svg');
+}
+
+.icon-calendar:before {
+    font-icon: url('./svg/calendar.svg');
+}
+
+.icon-close:before {
+     font-icon: url('./svg/close.svg');
+}
+
+.icon-clear:before {
+    font-icon: url('./svg/clear.svg');
+}
+
+.icon-copy:before {
+    font-icon: url('./svg/copy.svg');
+}
+
+.icon-dashboard:before {
+    font-icon: url('./svg/dashboard.svg');
+}
+
+.icon-gdpr:before {
+    font-icon: url('./svg/dsgvo.svg');
+}
+
+.icon-edit:before {
+    font-icon: url('./svg/edit.svg');
+}
+
+.icon-employees:before {
+    font-icon: url('./svg/employees.svg');
+}
+
+.icon-employer-branding:before {
+    font-icon: url('./svg/employerbranding.svg');
+}
+
+.icon-preview:before {
+    font-icon: url('./svg/eye.svg');
+}
+
+.icon-lock:before {
+    font-icon: url('./svg/lock.svg');
+}
+
+.icon-search:before {
+    font-icon: url('./svg/magnifier.svg');
+}
+
+.icon-mailtool:before {
+     font-icon: url('./svg/mailtool.svg');
+ }
+
+.icon-note:before {
+    font-icon: url('./svg/note.svg');
+}
+
+.icon-phone:before {
+    font-icon: url('./svg/phone.svg');
+}
+
+.icon-add:before {
+    font-icon: url('./svg/plus.svg');
+}
+
+.icon-selfservice-job:before {
+    font-icon: url('./svg/selbsteingabe.svg');
+}
+
+.icon-service-job:before {
+    font-icon: url('./svg/serviceeingabe.svg');
+}
+
+.icon-spider-job:before {
+    font-icon: url('./svg/spiderjob.svg');
+}
+
+.icon-somtools:before {
+    font-icon: url('./svg/somtools.svg');
+}
+
+.icon-job:before {
+    font-icon: url('./svg/stelleninserat.svg');
+}
+
+.icon-talentcloud:before {
+    font-icon: url('./svg/talentcloud.svg');
+}
+
+.icon-upload:before {
+    font-icon: url('./svg/upload.svg');
+}
+
+.icon-checkbox-on:before {
+    font-icon: url('./svg/checkbox.svg');
+}
+
+.icon-checkbox-off:before {
+    font-icon: url('./svg/checkbox_outline.svg');
+}
+
+.icon-checkbox-indeterminate:before {
+    font-icon: url('./svg/checkbox_indeterminate.svg');
+}
+
+.icon-radio-on:before {
+    font-icon: url('./svg/radio.svg');
+}
+.icon-radio-off:before {
+    font-icon: url('./svg/radio_outline.svg');
+}
+
+.icon-chevron-left:before {
+    font-icon: url('./svg/chevron-left.svg');
+}
+
+.icon-chevron-right:before {
+    font-icon: url('./svg/chevron-right.svg');
+}
+
+.icon-access-time:before {
+    font-icon: url('./svg/access_time.svg');
+}
+
+.icon-sort:before {
+    font-icon: url('./svg/arrow_upward.svg');
+}
+
+.icon-state:before {
+    font-icon: url('./svg/bommel.svg');
+}
+
+.icon-state-outline:before {
+    font-icon: url('./svg/bommel_outline.svg');
+}
+
+.icon-check:before {
+    font-icon: url('./svg/check.svg');
+}
+
+.icon-mail:before {
+    font-icon: url('./svg/email.svg');
+}
+
+.icon-info:before {
+    font-icon: url('./svg/info.svg');
+}
+
+.icon-warning:before {
+    font-icon: url('./svg/warning.svg');
+}
+
+.icon-person:before {
+    font-icon: url('./svg/person.svg');
+}
+
+.icon-refresh:before {
+    font-icon: url('./svg/refresh.svg');
+}
+
+.icon-company:before {
+    font-icon: url('./svg/company.svg');
+}
+
+.icon-location:before {
+    font-icon: url('./svg/location.svg');
+}
+
+.icon-globe:before {
+    font-icon: url('./svg/globe.svg');
+}
+
+.icon-hyphen:before {
+    font-icon: url('./svg/hyphen.svg');
+}
+
+.icon-draft:before {
+    font-icon: url('./svg/draft.svg');
+}
+
+.icon-link:before {
+    font-icon: url('./svg/link.svg');
+}
+
+.icon-join:before {
+    font-icon: url('./svg/join.svg');
+}
+
+.icon-split:before {
+    font-icon: url('./svg/split.svg');
+}
+
+.icon-download:before {
+    font-icon: url('./svg/download.svg');
+}
+
+.icon-format-bold:before {
+    font-icon: url('./svg/format-bold.svg');
+}
+
+.icon-format-underlined:before {
+    font-icon: url('./svg/format-underlined.svg');
+}
+
+.icon-format-italic:before {
+    font-icon: url('./svg/format-italic.svg');
+}
+
+.icon-format-list-bulleted:before {
+    font-icon: url('./svg/format-list-bulleted.svg');
+}
+
+.icon-format-list-numbered:before {
+    font-icon: url('./svg/format-list-numbered.svg');
+}
+
+.icon-format-title:before {
+    font-icon: url('./svg/format-title.svg');
+}
